@@ -1,0 +1,275 @@
+.label cbm_k_setnam=$dba {
+  .label __0=$49
+  .label filename=$69
+  .label filename_len=$64
+}
+.label textcolor=$c3a {
+  .label __1=$55
+  .label __0=$55
+}
+.label main=$954 {
+  .label __b1=$9f2
+  .label addr_25=$25
+  .label addr_24=$24
+  .label s11=$11bf
+  .label s10=$1147
+  .label addr_23=$23
+  .label addr_251=$25
+  .label __b6=$a41
+  .label addr_22=$22
+  .label addr_231=$23
+  .label __b2=$979
+  .label __b3=$aca
+  .label s1=$10bc
+  .label __b5=$a39
+  .label s2=$10cf
+  .label s3=$10d6
+  .label s4=$10dd
+  .label s5=$10e4
+  .label s6=$112a
+  .label __19=$3b
+  .label s7=$1137
+  .label s8=$1139
+  .label __14=$3b
+  .label s=$106d
+  .label filename=$1125
+  .label addr_241=$24
+  .label addr_221=$22
+  .label status_1=$3a
+  .label status=$5f
+}
+.label clearline=$f71 {
+  .label __1=$2b
+  .label conio_line=$28
+  .label __2=$2c
+  .label c=$26
+  .label __b1=$fb8
+  .label color=$2a
+  .label addr=$30
+  .label __b2=$fc9
+  .label mapbase_offset=$30
+}
+.label conio_x16_init=$818 {
+  .label __10=$53
+  .label line=$72
+  .label __9=$67
+  .label __8=$53
+  .label BASIC_CURSOR_LINE=$d6
+  .label __11=$68
+}
+.label strlen=$e4a {
+  .label str=$46
+  .label __b1=$e50
+  .label len=$49
+  .label __b2=$e59
+  .label return=$49
+}
+.label __start=$80d {
+}
+.label cbm_k_plot_get=$c62 {
+  .label x=$59
+  .label y=$57
+  .label return=$53
+}
+.label cputln=$cb8 {
+  .label temp=$3c
+}
+.label cscroll=$e12 {
+  .label __breturn=$e35
+  .label __b4=$e36
+}
+.label getin=$da0 {
+  .label ch=$5e
+  .label bank_get_bram1_return=$4e
+  .label return=$3b
+}
+.label VERA_L1_TILEBASE=$9f36
+.label printf_padding=$ffc {
+  .label __b1=$1000
+  .label length=$4e
+  .label i=$48
+  .label __b2=$1007
+}
+.label cputc=$8b3 {
+  .label c=$32
+  .label __b1=$950
+  .label color=$4b
+  .label mapbase_offset=$26
+  .label __14=$44
+  .label __1=$3f
+  .label __3=$40
+  .label mapwidth=$4c
+  .label __5=$42
+  .label scroll_enable=$43
+  .label __4=$41
+  .label __breturn=$943
+  .label conio_addr=$26
+  .label __b5=$944
+}
+.label cx16_mouse_get=$e06 {
+  .label status=$58
+}
+.label gotoxy=$c79 {
+  .label __b1=$c84
+  .label __5=$36
+  .label x=$38
+  .label y=$39
+  .label __b2=$c8f
+  .label line_offset=$36
+}
+.label bgcolor=$c4b {
+  .label __0=$56
+  .label __2=$56
+}
+.label printf_buffer=$1210
+.label screensize=$b53 {
+  .label __1=$5a
+  .label __3=$5b
+  .label x=$11ff
+  .label y=$1200
+  .label hscale=$5a
+  .label vscale=$5b
+}
+.label cursor=$c5c {
+}
+.label RADIX_DECIMAL_VALUES_CHAR=$11f9
+.label VERA_L1_CONFIG=$9f34
+.label VERA_ADDRX_H=$9f22
+.label VERA_DATA0=$9f23
+.label DIGITS=$11e9
+.label VERA_DATA1=$9f24
+.label VERA_LAYER_HEIGHT=$11d9
+.label clrscr=$ce7 {
+  .label c=$51
+  .label __b1=$d0e
+  .label color=$48
+  .label mapheight=$4f
+  .label line_text=$49
+  .label l=$3a
+  .label __1=$4e
+  .label __3=$3e
+  .label __2=$52
+  .label mapwidth=$46
+  .label __b2=$d27
+  .label __b4=$d4b
+  .label __b5=$d69
+}
+.label printf_number_buffer=$ebf {
+  .label putc=$8b3
+  .label padding=$4e
+  .label __b1=$ee7
+  .label __19=$49
+  .label buffer_digits=$1211
+  .label format_min_length=$51
+  .label len=$4e
+  .label __b6=$ef0
+  .label __b8=$ed8
+  .label buffer_sign=$52
+  .label __b2=$ef3
+  .label __b3=$efc
+  .label __b4=$ee3
+}
+.label VERA_LAYER_SKIP=$11e1
+.label VERA_ADDRX_L=$9f20
+.label VERA_LAYER_WIDTH=$11d1
+.label VERA_CTRL=$9f25
+.label VERA_ADDRX_M=$9f21
+.label insertup=$f10 {
+  .label __3=$33
+  .label __b1=$f1f
+  .label cy=$35
+  .label line=$2e
+  .label width=$34
+  .label start=$2e
+  .label i=$32
+  .label __b2=$f29
+}
+.label cbm_k_open=$ddb {
+  .label return=$5f
+  .label status=$65
+}
+.label VERA_L1_MAPBASE=$9f35
+.label BRAM=$0
+.label cbm_k_setlfs=$dd1 {
+  .label channel=$71
+  .label device=$6e
+  .label command=$6c
+}
+.label VERA_DC_HSCALE=$9f2a
+.label uctoa=$e68 {
+  .label __b1=$e76
+  .label digit_value=$3e
+  .label started=$48
+  .label buffer=$49
+  .label __b2=$e91
+  .label value=$3a
+  .label __b4=$ea2
+  .label digit=$4e
+  .label __b5=$ea7
+}
+.label printf_str=$d82 {
+  .label putc=$49
+  .label c=$48
+  .label s=$46
+  .label __b1=$d82
+  .label icall1=$d9d
+  .label __b2=$d93
+}
+.label cbm_k_close=$df8 {
+  .label channel=$6f
+  .label return=$3a
+  .label status=$66
+}
+.label memcpy_vram_vram_inc=$1013 {
+  .label __b1=$104f
+  .label doffset_vram=$2e
+  .label num=$28
+  .label vera_vram_data0_bank_offset1___0=$2b
+  .label i=$26
+  .label __b2=$105e
+  .label vera_vram_data1_bank_offset1___1=$2d
+  .label vera_vram_data0_bank_offset1___1=$2c
+  .label vera_vram_data1_bank_offset1___0=$2a
+  .label soffset_vram=$30
+}
+.label printf_uchar=$de7 {
+  .label format_min_length=$51
+  .label uvalue=$3a
+}
+.label cx16_mouse_config=$d78 {
+  .label scalex=$6d
+  .label scaley=$6b
+  .label visible=$70
+}
+.label VERA_DC_VSCALE=$9f2b
+.label uctoa_append=$fdc {
+  .label sub=$3e
+  .label __b1=$fe0
+  .label buffer=$4f
+  .label __b2=$ff0
+  .label value=$3a
+  .label return=$3a
+  .label digit=$3b
+}
+.label __conio=$11fb
+.label screenlayer1=$b88 {
+  .label __15=$63
+  .label __16=$55
+  .label __17=$56
+  .label __18=$5d
+  .label __11=$5d
+  .label __12=$53
+  .label __13=$62
+  .label __14=$53
+  .label __1=$5b
+  .label __0=$5a
+  .label __3=$55
+  .label __2=$60
+  .label __10=$5d
+  .label __5=$56
+  .label __4=$55
+  .label __7=$5c
+  .label __6=$56
+  .label __9=$5c
+  .label __8=$5c
+}

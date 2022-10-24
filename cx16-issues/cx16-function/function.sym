@@ -1,0 +1,221 @@
+.label cputs=$863 {
+  .label c=$b
+  .label s=$4
+  .label __b1=$86b
+  .label __b2=$87c
+}
+.label vera_layer_tilebase=$e07
+.label vera_layer_set_config=$c4c {
+  .label addr=$9
+}
+.label vera_tilebase_address=$df1
+.label vera_layer_backcolor=$e0d
+.label vera_layer_get_mapbase_offset=$ba4 {
+  .label return=$9
+}
+.label vera_layer_get_rowshift=$baf {
+  .label return=$7
+}
+.label vera_layer_rowskip=$dfb
+.label main=$855 {
+}
+.label clearline=$cf8 {
+  .label __1=$b
+  .label conio_line=$12
+  .label __2=$b
+  .label c=$c
+  .label __b1=$d41
+  .label __5=$b
+  .label color=$6
+  .label addr=$12
+  .label __b2=$d59
+}
+.label vera_layer_set_text_color_mode=$b87 {
+  .label addr=$9
+}
+.label conio_x16_init=$818 {
+  .label __b1=$851
+  .label line=$3
+  .label BASIC_CURSOR_LINE=$d6
+}
+.label vera_layer_config=$dff
+.label vera_tilebase_offset=$deb
+.label __start=$80d {
+}
+.label vera_tilebase_bank=$def
+.label vera_layer_textcolor=$e0b
+.label vera_mapbase_address=$de3
+.label cputln=$c05 {
+  .label __3=$10
+  .label temp=$c
+  .label __2=$10
+}
+.label cscroll=$c6e {
+  .label __b3=$c86
+  .label __b4=$c87
+}
+.label VERA_L0_MAPBASE=$9f2e
+.label test=$814 {
+  .label s=$dc6
+}
+.label VERA_L1_TILEBASE=$9f36
+.label vera_layer_set_textcolor=$953 {
+}
+.label cputc=$a72 {
+  .label c=$b
+  .label __b1=$b20
+  .label color=$6
+  .label __15=$10
+  .label __16=$c
+  .label conio_map_width=$e
+  .label __2=$10
+  .label conio_screen_text=$c
+  .label __5=$10
+  .label scroll_enable=$10
+  .label __4=$10
+  .label __6=$10
+  .label __breturn=$b10
+  .label conio_addr=$c
+  .label __b5=$b11
+}
+.label gotoxy=$97a {
+  .label __b1=$985
+  .label __5=$7
+  .label __6=$9
+  .label y=$3
+  .label line_offset=$9
+}
+.label screensize=$889 {
+  .label __1=$7
+  .label __3=$8
+  .label x=$e1d
+  .label y=$e1e
+  .label hscale=$7
+  .label vscale=$8
+}
+.label cursor=$974 {
+}
+.label VERA_L1_CONFIG=$9f34
+.label VERA_ADDRX_H=$9f22
+.label vera_layer_mode_text=$882 {
+  .label tilebase_address=$f800
+  .label mapbase_address=$0
+  .label layer=$1
+}
+.label vera_layer_mode_tile=$b24 {
+  .label tilebase_address=$7c00
+  .label config=$60
+}
+.label vera_layer_rowshift=$df9
+.label VERA_DATA0=$9f23
+.label VERA_DATA1=$9f24
+.label vera_layer_set_backcolor=$959 {
+}
+.label VERA_L0_CONFIG=$9f2d
+.label VERA_LAYER_HEIGHT=$dd5
+.label conio_line_text=$e13
+.label VERA_L0_TILEBASE=$9f2f
+.label vera_layer_get_rowskip=$bb5 {
+  .label return=$9
+}
+.label clrscr=$9bd {
+  .label c=$10
+  .label __b1=$9fd
+  .label color=$b
+  .label line_text=$4
+  .label l=$6
+  .label conio_map_width=$e
+  .label __1=$b
+  .label __0=$b
+  .label __2=$10
+  .label __5=$10
+  .label __7=$10
+  .label __6=$10
+  .label __9=$10
+  .label conio_map_height=$c
+  .label __b2=$a21
+  .label __b4=$a45
+  .label __b5=$a63
+}
+.label conio_cursor_y=$e11
+.label conio_cursor_x=$e0f
+.label vera_layer_set_mapbase=$95f {
+  .label __0=$7
+  .label mapbase=$8
+  .label addr=$9
+  .label layer=$7
+}
+.label conio_scroll_enable=$e17
+.label VERA_ADDRX_L=$9f20
+.label vera_layer_get_color=$bd0 {
+  .label __1=$11
+  .label __0=$10
+  .label __3=$10
+  .label __b1=$bfd
+  .label addr=$c
+  .label return=$6
+  .label layer=$6
+}
+.label vera_mapbase_bank=$de1
+.label VERA_LAYER_WIDTH=$dcd
+.label VERA_CTRL=$9f25
+.label VERA_ADDRX_M=$9f21
+.label insertup=$c94 {
+  .label __3=$b
+  .label __b1=$ca6
+  .label cy=$11
+  .label line=$c
+  .label width=$6
+  .label start=$c
+  .label i=$10
+  .label __b2=$cb0
+}
+.label vera_layer_set_tilebase=$c5d {
+  .label addr=$9
+}
+.label vera_layer_mapbase=$e03
+.label VERA_L1_MAPBASE=$9f35
+.label VERA_DC_HSCALE=$9f2a
+.label cx16_conio=$e19
+.label memcpy_in_vram=$d6c {
+  .label __1=$b
+  .label __0=$b
+  .label __3=$b
+  .label __b1=$da8
+  .label __4=$b
+  .label src=$12
+  .label num=$e
+  .label i=$c
+  .label dest=$c
+  .label __b2=$db7
+}
+.label vera_mapbase_offset=$ddd
+.label vera_layer_get_backcolor=$bc0 {
+  .label return=$b
+  .label layer=$b
+}
+.label vera_layer_get_mapbase_bank=$b9e {
+  .label return=$7
+}
+.label vera_layer_get_textcolor=$bc8 {
+  .label return=$10
+  .label layer=$10
+}
+.label screenlayer=$8be {
+  .label vera_layer_get_width1___0=$7
+  .label vera_layer_get_width1___1=$7
+  .label vera_layer_get_height1___3=$8
+  .label vera_layer_get_width1___3=$7
+  .label vera_layer_get_height1___1=$8
+  .label vera_layer_get_height1___0=$8
+  .label vera_layer_get_width1_config=$9
+  .label layer=$1
+  .label vera_layer_get_width1_return=$9
+  .label vera_layer_get_height1_config=$9
+  .label __1=$9
+  .label __0=$7
+  .label vera_layer_get_height1_return=$9
+  .label __5=$9
+  .label __4=$7
+}
+.label VERA_DC_VSCALE=$9f2b

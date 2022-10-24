@@ -1,0 +1,22 @@
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: function.prg
+
+Memory Map
+----------
+Program-segment:
+
+Basic-segment:
+  $0801-$080c Basic
+
+Code-segment:
+  $080d-$0dc5 Code
+
+Data-segment:
+  $0dc6-$0e26 Data
+
+Writing Vice symbol file: function.vs
+Writing Symbol file: function.sym

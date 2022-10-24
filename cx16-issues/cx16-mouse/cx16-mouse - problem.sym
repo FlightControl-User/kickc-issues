@@ -1,0 +1,32 @@
+.label cbm_k_open=$86c {
+  .label status=$27
+}
+.label strlen=$882 {
+  .label str=$22
+  .label __b1=$888
+  .label len=$24
+  .label __b2=$891
+  .label return=$24
+}
+.label cbm_k_setlfs=$862 {
+  .label channel=$31
+  .label device=$2e
+  .label command=$2c
+}
+.label cbm_k_setnam=$84b {
+  .label __0=$24
+  .label filename=$29
+  .label filename_len=$26
+}
+.label cx16_mouse_config=$841 {
+  .label scalex=$2d
+  .label scaley=$2b
+  .label visible=$30
+}
+.label main=$80d {
+  .label filename=$8a0
+}
+.label cbm_k_close=$876 {
+  .label channel=$2f
+  .label status=$28
+}
