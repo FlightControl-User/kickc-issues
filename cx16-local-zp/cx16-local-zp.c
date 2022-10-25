@@ -3,7 +3,7 @@
 #include <printf.h>
 
 typedef struct {
-    unsigned int py[8];
+    signed int py[8];
 } towers_t;
 
 towers_t towers;
@@ -15,18 +15,18 @@ void main() {
 
     printf("before increment:\n");
     for(char i=0; i<8; i++) {
-        towers.py[i] = i;
-        printf("tower %u = %u\n", i, towers.py[i]);
+        towers.py[i] = (signed int)i;
+        printf("tower %u = %i\n", i, towers.py[i]);
     }
 
     for(char i=0; i<8; i++) {
-        signed int py = (signed int)towers.py[i];
+        unsigned int py = (unsigned int)towers.py[i];
         py++;
-        towers.py[i] = (unsigned int)py;
+        towers.py[i] = (signed int)py;
     }
 
     printf("\nafter increment:\n");
     for(char i=0; i<8; i++) {
-        printf("tower %u = %u\n", i, towers.py[i]);
+        printf("tower %u = %i\n", i, towers.py[i]);
     }
 }

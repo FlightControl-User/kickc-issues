@@ -1,0 +1,232 @@
+.label utoa=$cba {
+  .label __10=$11
+  .label __b1=$cc8
+  .label digit_value=$a
+  .label started=$2
+  .label buffer=$1e
+  .label __11=$1c
+  .label __b2=$ce6
+  .label value=$19
+  .label __b4=$d08
+  .label digit=$c
+  .label __b5=$d0d
+}
+.label textcolor=$9c2 {
+  .label __1=$28
+  .label __0=$28
+}
+.label main=$8db {
+  .label s3=$e7f
+  .label s4=$e81
+  .label __b1=$8f8
+  .label i1=$29
+  .label i=$2a
+  .label py=$1e
+  .label i2=$2b
+  .label __12=$c
+  .label __13=$18
+  .label __10=$2e
+  .label s=$e61
+  .label __b6=$917
+  .label __b7=$91e
+  .label __b2=$973
+  .label __b3=$902
+  .label __b4=$95e
+  .label s1=$e74
+  .label s2=$e7b
+}
+.label clearline=$d76 {
+  .label __1=$6
+  .label __0=$4
+  .label __3=$5
+  .label __2=$7
+  .label c=$2
+  .label __b1=$dac
+  .label addr=$a
+}
+.label conio_x16_init=$81c {
+  .label __5=$13
+  .label __4=$22
+  .label __7=$12
+  .label __6=$22
+}
+.label __start=$80d {
+}
+.label cbm_k_plot_get=$9ea {
+  .label x=$2d
+  .label y=$2c
+  .label return=$22
+}
+.label cputln=$a4d {
+  .label __2=$1d
+}
+.label cscroll=$c17 {
+  .label __breturn=$c3a
+  .label __b4=$c3b
+}
+.label memcpy8_vram_vram=$e0c {
+  .label sbank_vram=$4
+  .label num8=$3
+  .label __b1=$e4a
+  .label doffset_vram=$d
+  .label dbank_vram=$5
+  .label __1=$7
+  .label __0=$6
+  .label __3=$8
+  .label __2=$4
+  .label __5=$5
+  .label __4=$9
+  .label num8_1=$2
+  .label __b2=$e54
+  .label soffset_vram=$a
+}
+.label printf_sint=$b07 {
+  .label __b1=$b13
+  .label __b2=$b25
+  .label value=$19
+}
+.label RADIX_DECIMAL_VALUES=$eb4
+.label cputc=$852 {
+  .label __1=$18
+  .label __3=$1c
+  .label __2=$c
+  .label c=$2
+  .label __b1=$8d7
+  .label __b6=$8b1
+  .label __b7=$8a0
+  .label __b8=$8d3
+  .label __b5=$8b7
+}
+.label BROM=$1
+.label gotoxy=$a01 {
+  .label __b1=$a0b
+  .label __14=$12
+  .label __3=$13
+  .label __2=$13
+  .label __10=$14
+  .label __7=$12
+  .label __6=$12
+  .label __9=$15
+  .label x=$13
+  .label __8=$17
+  .label y=$14
+  .label __b2=$a10
+  .label __b3=$a45
+  .label __b5=$a1e
+}
+.label bgcolor=$9d3 {
+  .label __0=$27
+  .label __2=$27
+}
+.label printf_buffer=$f49
+.label cursor=$9e4 {
+}
+.label RADIX_DECIMAL_VALUES_CHAR=$eb2
+.label VERA_L1_CONFIG=$9f34
+.label VERA_ADDRX_H=$9f22
+.label VERA_DATA0=$9f23
+.label DIGITS=$ea2
+.label VERA_DATA1=$9f24
+.label clrscr=$a6c {
+  .label __1=$1d
+  .label __0=$1c
+  .label __2=$2
+  .label c=$c
+  .label __b1=$a8d
+  .label ch=$19
+  .label line_text=$19
+  .label l=$1b
+  .label __b2=$aa0
+}
+.label printf_number_buffer=$ca5 {
+  .label buffer_sign=$20
+  .label __b2=$cae
+}
+.label towers=$f55
+.label VERA_ADDRX_L=$9f20
+.label VERA_CTRL=$9f25
+.label VERA_ADDRX_M=$9f21
+.label insertup=$d25 {
+  .label __0=$11
+  .label __b1=$d31
+  .label __4=$f
+  .label __7=$f
+  .label __6=$10
+  .label width=$11
+  .label y=$c
+  .label __b2=$d3c
+}
+.label VERA_L1_MAPBASE=$9f35
+.label BRAM=$0
+.label VERA_DC_HSCALE=$9f2a
+.label uctoa=$c4e {
+  .label __b1=$c5c
+  .label digit_value=$1c
+  .label started=$20
+  .label buffer=$19
+  .label __b2=$c77
+  .label value=$1b
+  .label __b4=$c88
+  .label digit=$c
+  .label __b5=$c8d
+}
+.label printf_str=$adb {
+  .label c=$2
+  .label s=$19
+  .label __b1=$adb
+  .label __b2=$aec
+}
+.label printf_uchar=$af6 {
+  .label uvalue=$1b
+}
+.label utoa_append=$dde {
+  .label sub=$a
+  .label __b1=$de2
+  .label buffer=$d
+  .label __b2=$dfa
+  .label value=$19
+  .label return=$19
+  .label digit=$18
+}
+.label screenlayer=$b31 {
+  .label __b1=$beb
+  .label mapbase=$28
+  .label mapbase_offset=$22
+  .label VERA_LAYER_SKIP=$e98
+  .label __1=$28
+  .label __0=$17
+  .label vera_dc_hscale_temp=$ea0
+  .label __2=$15
+  .label __10=$24
+  .label __5=$27
+  .label __7=$26
+  .label __6=$27
+  .label __9=$24
+  .label __8=$26
+  .label __b2=$bf3
+  .label __19=$25
+  .label vera_dc_vscale_temp=$ea1
+  .label __16=$26
+  .label __17=$21
+  .label __18=$24
+  .label __11=$24
+  .label __12=$25
+  .label __13=$25
+  .label __14=$25
+  .label VERA_LAYER_DIM=$e94
+  .label y=$14
+  .label config=$27
+}
+.label VERA_DC_VSCALE=$9f2b
+.label uctoa_append=$dbe {
+  .label sub=$1c
+  .label __b1=$dc2
+  .label buffer=$a
+  .label __b2=$dd2
+  .label value=$1b
+  .label return=$1b
+  .label digit=$18
+}
+.label __conio=$ebc
+.label screenlayer1=$9b4 {
+}

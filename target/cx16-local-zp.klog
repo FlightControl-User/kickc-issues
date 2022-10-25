@@ -1,4 +1,4 @@
-Output dir: D:\Users\svenv\OneDrive\Documents\GitHub\kickc-issues\cx16-issues\target
+Output dir: D:\Users\svenv\OneDrive\Documents\GitHub\kickc-issues\target
 parsing
 flex pass 1
 flex pass 2
@@ -14,10 +14,10 @@ Basic-segment:
   $0801-$080c Basic
 
 Code-segment:
-  $080d-$0e53 Code
+  $080d-$0e60 Code
 
 Data-segment:
-  $0e54-$0f57 Data
+  $0e61-$0f64 Data
 
 Writing Vice symbol file: cx16-local-zp.vs
 Writing Symbol file: cx16-local-zp.sym
