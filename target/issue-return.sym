@@ -1,0 +1,106 @@
+.label RADIX_DECIMAL_VALUES_CHAR=$b2c
+.label DIGITS=$b1c
+.label main=$860 {
+  .label s=$b17
+  .label i=$1f
+  .label key_get1_return=$20
+  .label __b2=$86e
+  .label s1=$b1a
+}
+.label conio_line_text=$15
+.label clrscr=$92c {
+  .label c=$4
+  .label __b1=$940
+  .label line_cols=$c
+  .label line_text=$f
+  .label l=$11
+  .label __b2=$95d
+  .label __b3=$961
+  .label __b4=$982
+}
+.label printf_number_buffer=$a82 {
+  .label buffer_digits=$b2f
+  .label buffer_sign=$7
+  .label __b2=$a8b
+}
+.label conio_cursor_y=$12
+.label conio_cursor_x=$17
+.label __start=$80d {
+}
+.label DEFAULT_SCREEN=$400
+.label cputln=$90c {
+}
+.label cscroll=$9c4 {
+  .label __breturn=$a2a
+}
+.label conio_c64_init=$82a {
+  .label __b1=$836
+  .label line=$1e
+  .label BASIC_CURSOR_LINE=$d6
+}
+.label uctoa=$a2b {
+  .label __b1=$a39
+  .label digit_value=$8
+  .label started=$e
+  .label buffer=$f
+  .label __b2=$a54
+  .label value=$4
+  .label __b4=$a65
+  .label digit=$11
+  .label __b5=$a6a
+}
+.label printf_str=$991 {
+  .label putc=$f
+  .label c=$e
+  .label s=$c
+  .label __b1=$991
+  .label icall1=$9ac
+  .label __b2=$9a2
+}
+.label conio_line_color=$13
+.label memset=$ace {
+  .label str=$2
+  .label c=$9
+  .label dst=$2
+  .label end=$5
+  .label __b2=$adb
+  .label __b3=$ae8
+}
+.label COLORRAM=$d800
+.label cputc=$83a {
+  .label c=$9
+  .label __b1=$85c
+  .label __breturn=$85b
+}
+.label gotoxy=$8a0 {
+  .label __5=$1c
+  .label __7=$18
+  .label __6=$18
+  .label __9=$18
+  .label y=$1e
+  .label __8=$1a
+  .label __b2=$8aa
+  .label line_offset=$18
+}
+.label printf_uchar=$9af {
+  .label putc=$83a
+}
+.label memcpy=$a9f {
+  .label __b1=$aac
+  .label src_end=$a
+  .label dst=$5
+  .label src=$2
+  .label destination=$5
+  .label source=$2
+  .label __b2=$ab9
+}
+.label printf_buffer=$b2e
+.label uctoa_append=$af7 {
+  .label sub=$8
+  .label __b1=$afb
+  .label buffer=$c
+  .label __b2=$b0b
+  .label value=$4
+  .label return=$4
+  .label digit=$7
+}

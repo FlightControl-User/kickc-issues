@@ -1,0 +1,23 @@
+Output dir: C:\Users\svenv\OneDrive\Documents\GitHub\kickc-issues\target
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: issue-return.prg
+
+Memory Map
+----------
+Program-segment:
+
+Basic-segment:
+  $0801-$080c Basic
+
+Code-segment:
+  $080d-$0b16 Code
+
+Data-segment:
+  $0b17-$0b39 Data
+
+Writing Vice symbol file: issue-return.vs
+Writing Symbol file: issue-return.sym
