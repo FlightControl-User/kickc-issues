@@ -175,28 +175,19 @@ main: {
     // [32] if(main::i#10<$a) goto main::return_max1 -- vbuz1_lt_vbuc1_then_la1 
     lda.z i
     cmp #$a
-    bcc return_max1
+    bcc __b2
     // main::@return
     // }
     // [33] return 
     rts
     // main::return_max1
-  return_max1:
     // num >= MAX
-    // [34] main::return_max1_$0 = main::i#10 >= 5 -- vboz1=vbuz2_ge_vbuc1 
-    lda.z i
-    cmp #5
-    bcs !+
-    lda #0
-    jmp !e+
-  !:
-    lda #1
-  !e:
-    sta.z return_max1___0
+    // [34] main::return_max1_$0 = main::i#10 >= 5
     // return (char)(num >= MAX);
     // [35] main::return_max1_return#0 = (char)main::return_max1_$0
     // [36] phi from main::return_max1 to main::@2 [phi:main::return_max1->main::@2]
     // main::@2
+  __b2:
     // printf("num=%u, max=%u\n", i, return_max(i))
     // [37] call printf_str
     // [84] phi from main::@2 to printf_str [phi:main::@2->printf_str]

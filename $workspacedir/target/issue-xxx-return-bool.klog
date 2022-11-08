@@ -1,4 +1,4 @@
-Output dir: D:\Users\svenv\OneDrive\Documents\GitHub\kickc-issues\target
+Output dir: D:\Users\svenv\OneDrive\Documents\GitHub\kickc-issues\$workspacedir\target
 parsing
 flex pass 1
 flex pass 2
@@ -14,10 +14,10 @@ Basic-segment:
   $0801-$080c Basic
 
 Code-segment:
-  $080d-$0b42 Code
+  $080d-$0b33 Code
 
 Data-segment:
-  $0b43-$0b6e Data
+  $0b34-$0b5f Data
 
 Writing Vice symbol file: issue-xxx-return-bool.vs
 Writing Symbol file: issue-xxx-return-bool.sym
