@@ -3,8 +3,9 @@ parsing
 flex pass 1
 flex pass 2
 flex pass 3
+flex pass 4
 Output pass
-Writing prg file: issue-return.prg
+Writing prg file: issue-802-return.prg
 
 Memory Map
 ----------
@@ -14,10 +15,10 @@ Basic-segment:
   $0801-$080c Basic
 
 Code-segment:
-  $080d-$0b16 Code
+  $080d-$0cc9 Code
 
 Data-segment:
-  $0b17-$0b39 Data
+  $0cca-$0d93 Data
 
-Writing Vice symbol file: issue-return.vs
-Writing Symbol file: issue-return.sym
+Writing Vice symbol file: issue-802-return.vs
+Writing Symbol file: issue-802-return.sym

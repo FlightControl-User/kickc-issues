@@ -1,0 +1,161 @@
+.label cursor=$960 {
+}
+.label VERA_L1_CONFIG=$9f34
+.label VERA_ADDRX_H=$9f22
+.label textcolor=$938 {
+  .label __1=$cd9
+  .label __0=$cd9
+}
+.label VERA_DATA0=$9f23
+.label VERA_DATA1=$9f24
+.label main=$8f7 {
+  .label __b1=$90a
+  .label s=$cd3
+  .label i=$cd8
+  .label __b2=$91c
+  .label __b3=$918
+}
+.label clearline=$c23 {
+  .label __1=$cfe
+  .label __0=$cfd
+  .label __3=$d00
+  .label c=$22
+  .label __b1=$c5d
+  .label __2=$cff
+  .label addr=$27
+}
+.label conio_x16_init=$820 {
+  .label __5=$ccc
+  .label __4=$cca
+  .label __7=$ccf
+  .label __6=$ccd
+}
+.label clrscr=$9fe {
+  .label __1=$ce3
+  .label __0=$ce2
+  .label c=$22
+  .label __b1=$a20
+  .label __2=$ce4
+  .label ch=$30
+  .label line_text=$30
+  .label l=$26
+  .label __b2=$a35
+}
+.label __start=$80d {
+}
+.label VERA_ADDRX_L=$9f20
+.label cbm_k_plot_get=$966 {
+  .label x=$34
+  .label y=$33
+  .label return=$2e
+}
+.label VERA_CTRL=$9f25
+.label cputln=$9de {
+  .label __2=$ce1
+}
+.label cscroll=$b94 {
+  .label __breturn=$bb7
+  .label __b4=$bb8
+}
+.label VERA_ADDRX_M=$9f21
+.label insertup=$bcb {
+  .label __0=$cfa
+  .label __b1=$bd9
+  .label __4=$cfb
+  .label __7=$cfb
+  .label __6=$cfc
+  .label width=$2b
+  .label y=$26
+  .label __b2=$be4
+}
+.label VERA_L1_MAPBASE=$9f35
+.label memcpy8_vram_vram=$c6f {
+  .label sbank_vram=$29
+  .label num8=$23
+  .label __b1=$cb3
+  .label doffset_vram=$27
+  .label dbank_vram=$2a
+  .label __1=$d02
+  .label __0=$d01
+  .label __3=$d04
+  .label __2=$d03
+  .label __5=$d06
+  .label __4=$d05
+  .label num8_1=$22
+  .label __b2=$cbd
+  .label soffset_vram=$24
+}
+.label BRAM=$0
+.label VERA_DC_HSCALE=$9f2a
+.label count=$35
+.label printf_str=$a70 {
+  .label c=$26
+  .label s=$30
+  .label __b1=$a78
+  .label __b2=$a89
+}
+.label cputc=$86b {
+  .label __1=$cd0
+  .label __3=$cd2
+  .label c=$22
+  .label __b1=$8f3
+  .label __2=$cd1
+  .label __b6=$8cd
+  .label __b7=$8bc
+  .label __b8=$8ef
+  .label __b5=$8d3
+}
+.label BROM=$1
+.label gotoxy=$97d {
+  .label __b1=$98a
+  .label __14=$cdc
+  .label __3=$cdb
+  .label __2=$cdb
+  .label __10=$ce0
+  .label __7=$cdc
+  .label __6=$cdc
+  .label x=$2c
+  .label __9=$cde
+  .label y=$2d
+  .label __8=$cdd
+  .label __b2=$990
+  .label __b3=$9d5
+  .label __b5=$9a0
+}
+.label bgcolor=$94c {
+  .label __0=$cda
+  .label __2=$cda
+}
+.label screenlayer=$a93 {
+  .label __b1=$b67
+  .label mapbase=$2d
+  .label mapbase_offset=$2e
+  .label VERA_LAYER_SKIP=$ce9
+  .label __1=$cf2
+  .label __0=$cf1
+  .label vera_dc_hscale_temp=$cf8
+  .label __2=$cf3
+  .label __10=$cf8
+  .label __5=$cf5
+  .label __7=$cf6
+  .label __6=$cf5
+  .label __9=$cf8
+  .label __8=$cf6
+  .label __b2=$b6f
+  .label __19=$cf9
+  .label vera_dc_vscale_temp=$cf9
+  .label __16=$cf6
+  .label __17=$cf7
+  .label __18=$cf8
+  .label __11=$cf8
+  .label __12=$cf9
+  .label __13=$cf9
+  .label __14=$cf9
+  .label VERA_LAYER_DIM=$ce5
+  .label y=$2c
+  .label config=$32
+}
+.label VERA_DC_VSCALE=$9f2b
+.label __conio=$d07
+.label screenlayer1=$92a {
+}

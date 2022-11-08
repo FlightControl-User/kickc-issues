@@ -1,0 +1,114 @@
+.label cursor=$897 {
+}
+.label VERA_L1_CONFIG=$9f34
+.label VERA_ADDRX_H=$9f22
+.label textcolor=$875 {
+  .label __1=$2e
+  .label __0=$2e
+}
+.label VERA_DATA0=$9f23
+.label main=$852 {
+}
+.label conio_x16_init=$81c {
+  .label __5=$35
+  .label __4=$26
+  .label __7=$34
+  .label __6=$26
+}
+.label clrscr=$900 {
+  .label __1=$32
+  .label __0=$36
+  .label __2=$33
+  .label c=$23
+  .label __b1=$921
+  .label ch=$2c
+  .label line_text=$2c
+  .label l=$22
+  .label __b2=$934
+}
+.label sprite_bram_handles=$ab8
+.label lru_cache_hash=$aa5 {
+  .label return=$22
+  .label key=$2c
+}
+.label __start=$80d {
+}
+.label VERA_ADDRX_L=$9f20
+.label cbm_k_plot_get=$89d {
+  .label x=$38
+  .label y=$37
+  .label return=$26
+}
+.label VERA_CTRL=$9f25
+.label VERA_ADDRX_M=$9f21
+.label VERA_L1_MAPBASE=$9f35
+.label sprite_cache_vram=$f45
+.label BRAM=$0
+.label sprite_image_cache_vram=$96f {
+  .label vram_index2=$22
+  .label vram_index=$22
+}
+.label VERA_DC_HSCALE=$9f2a
+.label lru_cache_index_get=$a7a {
+  .label __4=$23
+  .label index=$22
+  .label __b2=$a86
+  .label __b3=$a9b
+  .label return=$22
+  .label key=$2c
+  .label __b4=$a7d
+}
+.label BROM=$1
+.label gotoxy=$8b4 {
+  .label __b1=$8be
+  .label __14=$34
+  .label __3=$35
+  .label __2=$35
+  .label __10=$24
+  .label __7=$34
+  .label __6=$34
+  .label __9=$2f
+  .label x=$35
+  .label __8=$31
+  .label y=$24
+  .label __b2=$8c3
+  .label __b3=$8f8
+  .label __b5=$8d1
+}
+.label bgcolor=$886 {
+  .label __0=$2b
+  .label __2=$2b
+}
+.label screenlayer=$994 {
+  .label __b1=$a4e
+  .label mapbase=$2e
+  .label mapbase_offset=$26
+  .label VERA_LAYER_SKIP=$aae
+  .label __1=$2e
+  .label __0=$31
+  .label vera_dc_hscale_temp=$ab6
+  .label __2=$2f
+  .label __10=$28
+  .label __5=$2b
+  .label __7=$2a
+  .label __6=$2b
+  .label __9=$28
+  .label __8=$2a
+  .label __b2=$a56
+  .label __19=$29
+  .label vera_dc_vscale_temp=$ab7
+  .label __16=$2a
+  .label __17=$25
+  .label __18=$28
+  .label __11=$28
+  .label __12=$29
+  .label __13=$29
+  .label __14=$29
+  .label VERA_LAYER_DIM=$aaa
+  .label y=$24
+  .label config=$2b
+}
+.label VERA_DC_VSCALE=$9f2b
+.label __conio=$eb8
+.label screenlayer1=$867 {
+}
