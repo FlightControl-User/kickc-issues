@@ -1,0 +1,17 @@
+.label action_flightpath_004=$85c
+.label flightpaths=$86a
+.label main=$80d {
+  .label a=$3
+  .label __b1=$811
+  .label e=$7
+  .label __b7=$827
+  .label type=$2
+  .label __b2=$81c
+  .label __b3=$818
+  .label main__13=$4
+}
+.label stage_get_flightpath_type=$847 {
+  .label flightpath_action=$5
+  .label return=$2
+}
+.label action_flightpath_001=$84e

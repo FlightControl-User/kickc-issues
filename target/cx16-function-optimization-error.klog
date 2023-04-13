@@ -4,7 +4,7 @@ flex pass 1
 flex pass 2
 flex pass 3
 Output pass
-Writing prg file: issue-xxx-return-bool.prg
+Writing prg file: cx16-function-optimization-error.prg
 
 Memory Map
 ----------
@@ -14,10 +14,10 @@ Basic-segment:
   $0801-$080c Basic
 
 Code-segment:
-  $080d-$0b42 Code
+  $080d-$086a Code
 
 Data-segment:
-  $0b43-$0b6e Data
+  $086b-$088c Data
 
-Writing Vice symbol file: issue-xxx-return-bool.vs
-Writing Symbol file: issue-xxx-return-bool.sym
+Writing Vice symbol file: cx16-function-optimization-error.vs
+Writing Symbol file: cx16-function-optimization-error.sym
